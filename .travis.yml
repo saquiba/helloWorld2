@@ -1,0 +1,17 @@
+language: java
+
+
+#below might actually be unnecessary at this point because it says that the Java builder can determine this
+#it would be useful if I wanted a to work with such specifications.
+#Hello World seems to be too simple
+
+#use Maven 3 to build
+mvn test    
+
+ #install project dependencies with the Maven 3
+mvn install -DskipTests=true    
+
+#test against the following JDK
+jdk:
+  - oraclejdk7
+
