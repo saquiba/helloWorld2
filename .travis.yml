@@ -1,15 +1,9 @@
 language: java
 
+#Hello World is simple as there are no special specs for it to run
 
-#Below might actually be unnecessary at this point because it says that the Java builder can determine this
-#It would be useful if I wanted a to work with such specifications.
-#Hello World seems to be too simple
-
-#use Maven 3 to build
-mvn test    
-
- #install project dependencies with the Maven 3
-mvn install -DskipTests=true    
+#Travis CI has good defaults for projects that use Gradle, Maven or Ant, so it would be able to pick this
+#specification itself
 
 #test against the following JDK
 jdk:
