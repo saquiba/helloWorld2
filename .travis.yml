@@ -7,6 +7,6 @@ script: scons
 #minimally, you only need line 1.
 
 install: make get-deps
-compiler:
-  - clang
-  - gcc
+#compiler:
+#  - clang
+#  - gcc
