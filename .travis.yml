@@ -1,12 +1,12 @@
 language: cpp
-script: scons
+#script: scons
 
 
 #Hello World is simple as there are no special specs for it to run, 
 #even the following could have been determined by default
 #minimally, you only need line 1.
 
-install: make get-deps
+#install: make get-deps
 #compiler:
 #  - clang
 #  - gcc
