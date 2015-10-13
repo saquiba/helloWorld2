@@ -1,11 +1,10 @@
-language: java
+language: cpp
 
-#Hello World is simple as there are no special specs for it to run
+#Hello World is simple as there are no special specs for it to run, 
+#even the following could have been determined by default
+#minimally, you only need line 1.
 
-#Travis CI has good defaults for projects that use Gradle, Maven or Ant, so it would be able to pick this
-#specification itself
-
-#test against the following JDK
-jdk:
-  - oraclejdk7
-
+install: make get-deps
+compiler:
+  - clang
+  - gcc
