@@ -1,8 +1,8 @@
 language: java
 
 
-#below might actually be unnecessary at this point because it says that the Java builder can determine this
-#it would be useful if I wanted a to work with such specifications.
+#Below might actually be unnecessary at this point because it says that the Java builder can determine this
+#It would be useful if I wanted a to work with such specifications.
 #Hello World seems to be too simple
 
 #use Maven 3 to build
