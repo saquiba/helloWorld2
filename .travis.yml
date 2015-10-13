@@ -1,12 +1,6 @@
-language: cpp
-#script: scons
+language: java
 
+jdk:
+- oraclejdk7
 
-#Hello World is simple as there are no special specs for it to run, 
-#even the following could have been determined by default
-#minimally, you only need line 1.
-
-install: make get-deps
-#compiler:
-#  - clang
-#  - gcc
+script: helloWorld2.java
